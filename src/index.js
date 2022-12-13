@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import SongWeb from './components/SongWeb/Songweb';
+import SongWeb from './components/SongWebComponent/Songweb';
 import Discover from './components/DiscoverComponent/Discover';
-import Join from './components/Join/Join';
+import Join from './components/JoinComponent/Join';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

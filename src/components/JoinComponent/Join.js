@@ -3,8 +3,8 @@ import './Join.css';
 
 function Join() {
   return (
-    <div className="App">
-      
+    <div className="BannerJoin">
+      <h2>Join the fun.</h2>
     </div>
   );
 }

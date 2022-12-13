@@ -2,8 +2,9 @@ import './Discover.css';
 
 function Discover() {
   return (
-    <div className="App">
-      <h2>Discover</h2>
+    <div className="BannerDiscover">
+      <h2>Discover new music</h2>
+      <p>By joining you can benefit by listening to the latest albums released.</p>
     </div>
   );
 }
