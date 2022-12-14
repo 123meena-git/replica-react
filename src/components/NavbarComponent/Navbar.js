@@ -1,15 +1,15 @@
-import './Navbar.css';
 import ReactLogo from './asset/logo.svg';
 
-function Navbar() {
-    return (
-    <header>
-    <a href="NAV" class="land"><img src={ReactLogo} alt="React Logo" />SoundWave</a>
+export default function Navbar() {
+    return <nav className="Nav">
+    <a href="/" className="SoundWave"><img src={ReactLogo} alt="React Logo" />SoundWave</a>
     <ul>
-    <li><a href="NAV">Discover</a></li>
-    <li><a href="NAV">Join</a></li>
+    <li >
+        <a href="/Discover">Discover</a>
+        </li>
+    <li>
+        <a href="/Join">Join</a>
+        </li>
         </ul>
-    </header>
-    )
- }
- export default Navbar;
+        </nav>
+}

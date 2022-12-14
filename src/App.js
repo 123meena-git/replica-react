@@ -9,8 +9,7 @@ import Join from './JoinComponent/Join';
 export default function App () {
   return (
       <BrowserRouter>
-      <div className="App">
-        <link to="/Navbar"></link></div>
+      <Navbar />
         <Routes>
           <Route path="/SongWeb" element={<SongWeb />} />
           <Route path="/Discover" element={<Discover />} />

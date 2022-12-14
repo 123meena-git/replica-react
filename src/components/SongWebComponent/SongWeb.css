@@ -1,3 +1,11 @@
+@import url('https://font.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
 .BannerSongWeb {
     background-color: #2F303A;
     height: 100vh;
@@ -8,7 +16,7 @@
     font-size: Poppins(10px + 2vmin);
     color: white;
     margin-left: 800px;
-    top: 600px;
+    top: 400px;
     height: 300px;
     width: 300px;
     position: absolute;
@@ -17,13 +25,16 @@
    
   }
   
-  .button-bck {
+  .button {
     background-color: #1762A7;
     border: none;
     height: 30px;
     width: 85px;
     border-radius: 5%;
     color: white;
+  }
+  .button:hover {
+    background-color: #2180d8;
   }
   .image {
     height: 50vh;

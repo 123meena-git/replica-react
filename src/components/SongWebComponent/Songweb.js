@@ -11,7 +11,7 @@ function SongWeb() {
       <div className="text-banner-1">
       <h1>Feel The Music</h1> 
     <p>Stream Over 20 thousand song with one click</p>
-    <button className='button-bck'>Join Now</button></div>
+    <button className='button'>Join Now</button></div>
      </div>
   );
 }
