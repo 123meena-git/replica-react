@@ -4,12 +4,14 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SongWeb from './SongWebComponent/Songweb';
 import Discover from './DiscoverComponent/Discover';
 import Join from './JoinComponent/Join';
+import Footer from "./components/Footercomponent/Footer";
 
 
 export default function App () {
   return (
       <BrowserRouter>
       <Navbar />
+      <Footer />
         <Routes>
           <Route path="/SongWeb" element={<SongWeb />} />
           <Route path="/Discover" element={<Discover />} />

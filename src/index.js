@@ -7,6 +7,7 @@ import SongWeb from './components/SongWebComponent/SongWeb';
 import Discover from './components/DiscoverComponent/Discover';
 import Join from './components/JoinComponent/Join';
 import Navbar from './components/NavbarComponent/Navbar';
+import Footer from './components/Footercomponent/Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,6 +17,7 @@ root.render(
     <SongWeb />
     <Discover />
     <Join />
+    <Footer />
     
   </React.StrictMode>
 );

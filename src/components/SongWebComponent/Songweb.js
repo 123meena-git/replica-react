@@ -10,7 +10,7 @@ function SongWeb() {
       <div className="iconAspa1 d-flex justify content:end"></div>
       <div className="text-banner-1">
       <h1>Feel The Music</h1> 
-    <p>Stream Over 20 thousand song with one click</p>
+    <p>Stream Over 20 thousand song with one<br>click</br> </p>
     <button className='button'>Join Now</button></div>
      </div>
   );
