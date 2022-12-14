@@ -1,28 +1,33 @@
 .BannerSongWeb {
-  background-color: #2F303A;
-  height: 100vh;
-}
-
-.text-banner-1 {
-  align-items: left;
-  font-size: Poppins(10px + 2vmin);
-  color: white;
-  min-height: 300vh;
-  margin-left: 800px;
-  margin-top: 10px;
-  width: auto;
-  height: 500px;
-}
-
-.button-bck {
-  background-color: #1762A7;
-  border: none;
-  height: 30px;
-  width: 85px;
-  border-radius: 5%;
-  color: white;
-}
-.image {
-  height: 10vh;
-  width: auto;
-}
+    background-color: #2F303A;
+    height: 100vh;
+  }
+  
+  .text-banner-1 {
+    align-items: left;
+    font-size: Poppins(10px + 2vmin);
+    color: white;
+    margin-left: 800px;
+    top: 600px;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    bottom: 300px;
+    font-size: 20px;
+   
+  }
+  
+  .button-bck {
+    background-color: #1762A7;
+    border: none;
+    height: 30px;
+    width: 85px;
+    border-radius: 5%;
+    color: white;
+  }
+  .image {
+    height: 50vh;
+    width: auto;
+    Margin-top: 350px;
+    margin-left: 250px;
+  }
