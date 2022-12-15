@@ -1,6 +1,7 @@
 import ReactLogo from './asset/logo.svg';
+import './Navbar.css'
 
-export default function Navbar() {
+function Navbar() {
     return <nav className="Nav">
     <a href="/" className="SoundWave"><img src={ReactLogo} alt="React Logo" />SoundWave</a>
     <ul>
@@ -13,3 +14,4 @@ export default function Navbar() {
         </ul>
         </nav>
 }
+export default Navbar;

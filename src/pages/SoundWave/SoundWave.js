@@ -1,9 +1,13 @@
-import './SongWeb.css';
+import React from 'react';
+import './SoundWave.css';
 import logo3 from './logo3.png';
+import Navbar from '../../components/NavbarComponent/Navbar';
 
-function SongWeb() {
+
+function SoundWave() {
   return (
-    <div className="BannerSongWeb">
+    <div className="BannerSoundWave">
+      <Navbar />
      <div className='Photo'>
      <img className="image" src={logo3} alt="logo3" /></div>
       <div className="iconAspa1 d-flex justify-content-end"></div>
@@ -16,4 +20,4 @@ function SongWeb() {
   );
 }
 
-export default SongWeb;
+export default SoundWave;

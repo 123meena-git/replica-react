@@ -6,12 +6,12 @@
   box-sizing: border-box;
   font-family: 'poppins',sans-serif;
 }
-.BannerSongWeb {
+.BannerJoin {
     background-color: #2F303A;
     height: 100vh;
   }
   
-  .text-banner-1 {
+.h2 {
     align-items: left;
     font-size: Poppins(10px + 2vmin);
     color: white;
@@ -24,21 +24,6 @@
     font-size: 20px;
    
   }
-  
-  .button {
-    background-color: #1762A7;
-    border: none;
-    height: 30px;
-    width: 85px;
-    border-radius: 5%;
-    color: white;
-  }
-  .button:hover {
-    background-color: #2180d8;
-  }
-  .image {
-    height: 50vh;
-    width: auto;
-    Margin-top: 350px;
-    margin-left: 250px;
-  }
+.pink {
+    color: #bc0950;
+}

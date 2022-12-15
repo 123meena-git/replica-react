@@ -6,26 +6,39 @@
   box-sizing: border-box;
   font-family: 'poppins',sans-serif;
 }
-.BannerDiscover {
+.BannerSoundWave {
     background-color: #2F303A;
     height: 100vh;
   }
   
-  .text-banner-1 {
+.text-banner-1 {
     align-items: left;
     font-size: Poppins(10px + 2vmin);
     color: white;
-    margin-left: 100px;
+    margin-left: 800px;
     top: 400px;
     height: 300px;
     width: 300px;
     position: absolute;
     bottom: 300px;
     font-size: 20px;
+   
   }
-  .imagen {
+  
+  .button {
+    background-color: #1762A7;
+    border: none;
+    height: 30px;
+    width: 85px;
+    border-radius: 5%;
+    color: white;
+  }
+  .button:hover {
+    background-color: #2180d8;
+  }
+  .image {
     height: 50vh;
     width: auto;
     Margin-top: 350px;
-    margin-left: 800px;
+    margin-left: 250px;
   }

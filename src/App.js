@@ -1,26 +1,26 @@
 import React from "react";
-import '../src/App.css';
+import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SongWeb from './SongWebComponent/Songweb';
-import Discover from './DiscoverComponent/Discover';
-import Join from './JoinComponent/Join';
-import Footer from "./components/Footercomponent/Footer";
+import SoundWave from './pages/SoundWave/SoundWave';
+import Discover from './pages/Discover/Discover';
+import Join from './pages/Join/Join';
+import Navbar from './components/NavbarComponent/Navbar';
+import Footer from './components/FooterComponent/Footer';
 
 
-export default function App () {
+function App () {
   return (
       <BrowserRouter>
       <Navbar />
         <Routes>
-          <Route path="/SongWeb" element={<SongWeb />} />
-          <Route path="/Discover" element={<Discover />} />
-          <Route path="/Join" element={<Join />} />
+          <Route path="/" element={<SoundWave />} />
+          <Route path="Discover" element={<Discover />} />
+          <Route path="Join" element={<Join />} />
         </Routes>
         <Footer />
       </BrowserRouter>
    
-   
   );
 };
-
+export default App;
 

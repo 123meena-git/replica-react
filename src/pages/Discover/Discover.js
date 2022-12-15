@@ -10,9 +10,9 @@ function Discover () {
     <div className="BannerDiscover">
       <div className="text-banner-1">
       <h2>Discover new music</h2>
-      <img src={microphone} alt="microphone" />Charts
-      <img src={albums} alt="albums" />Albums
-      <img src={more} alt="more" />More
+      <img  src={microphone} alt="microphone" />Charts
+      <img  src={albums} alt="albums" />Albums
+      <img  src={more} alt="more" />More
       <p>By joining you can benefit by listening to the latest albums released.</p></div>
        
        <div className="iconAspa1 d-flex justify-content-end"></div>
