@@ -11,12 +11,12 @@ export default function App () {
   return (
       <BrowserRouter>
       <Navbar />
-      <Footer />
         <Routes>
           <Route path="/SongWeb" element={<SongWeb />} />
           <Route path="/Discover" element={<Discover />} />
           <Route path="/Join" element={<Join />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
    
    
