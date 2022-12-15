@@ -1,11 +1,25 @@
-# Getting Started with Create React App
+:Song App: React dom
+## Table of Contents
+1. [General info](#general-info)
+2. [Requirements](#requirements)
+3. [Installation & Run test](#installation & Run test)
+4. [Methodalogy](#methodalogy)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# General info
 
-## Available Scripts
+SoundWave is the project that has positioned itself in the market as Spotify's direct competition. With
+extraordinary sound quality and the wide variety of songs it offers is
+gaining followers by leaps and bounds. This company asks for development of a landing page to look for new subscribers. 
+
+# Requirements
+This project has performed while connected to a Github repository by using React dom.
+
+# Installation & Run test
 
 In the project directory, you can run:
-
+to install react
+### `npm create-react-npx replica-react`
+then;
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -68,3 +82,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Methodology
+The structure of this project is designed by the Automic design or archetypal design pattern, the source of this application contains Application, pages, Components. Navbar and Footer and Loginform are the components of this application linked to the pages.
+Bootstrap 5 is used in this project for the structure of pages. The application is structured with props.

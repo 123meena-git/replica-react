@@ -1,0 +1,17 @@
+.form {
+background-color: #202027;
+height: 500px;
+width: auto;
+border-radius: 23%;
+color: white;
+font-family: 'Poppins','Sansarif';
+}
+.btn {
+    background-color:#1762A7 ;
+    border-radius: 5%;
+    max-width: 30px;
+    height: 5px;
+}
+.btn:hover {
+    background-color: #2180d8;
+}
