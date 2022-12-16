@@ -1,8 +1,6 @@
 @import url('https://font.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
 *
 {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'poppins',sans-serif;
 }
@@ -15,12 +13,10 @@
     align-items: left;
     font-size: Poppins(10px + 2vmin);
     color: white;
-    margin-left: 800px;
-    top: 400px;
-    height: 300px;
-    width: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
     position: absolute;
-    bottom: 300px;
+    bottom: 20px;
     font-size: 20px;
    
   }
@@ -32,6 +28,7 @@
     width: 85px;
     border-radius: 5%;
     color: white;
+    font-size: 15px;
   }
   .button:hover {
     background-color: #2180d8;
@@ -40,5 +37,7 @@
     height: 50vh;
     width: auto;
     Margin-top: 350px;
-    margin-left: 250px;
+    margin-left: 350px;
+    bottom: 30px;
+    
   }

@@ -1,16 +1,21 @@
 .form {
-background-color: #202027;
-height: 500px;
-width: auto;
-border-radius: 23%;
+background-color: #2F303A;
+min-height: 500px;
+width: 50px;
+border-radius: 2%;
 color: white;
 font-family: 'Poppins','Sansarif';
+margin-top: 400px;
+margin-left: 400px;
+
 }
 .btn {
     background-color:#1762A7 ;
-    border-radius: 5%;
-    max-width: 30px;
-    height: 5px;
+    border-radius: 6%;
+    min-width: 300px;
+    height: 45px;
+    font-size: 15px;
+    color: white;
 }
 .btn:hover {
     background-color: #2180d8;

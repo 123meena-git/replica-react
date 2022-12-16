@@ -1,25 +1,12 @@
 import React from "react";
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SoundWave from './pages/SoundWave/SoundWave';
-import Discover from './pages/Discover/Discover';
-import Join from './pages/Join/Join';
-import Navbar from "./components/NavbarComponent/Navbar";
-import Footer from './components/FooterComponent/Footer';
-
-
+import Logo4 from "./Imagen/Logo4.png";
 
 function App () {
   return (
-      <BrowserRouter>
-      <Navbar />
-        <Routes>
-          <Route path="/" element={<SoundWave />} />
-          <Route path="Discover" element={<Discover />} />
-          <Route path="Join" element={<Join />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+      <div className="SoundWave">
+     <h1><img src={Logo4} alt="Logo4"></img>SoundWave</h1>
+      </div>
    
   );
 };
